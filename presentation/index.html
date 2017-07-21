@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Web A/V Workshop</title>
+		<link rel="shortcut icon" href="flash.ico">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/black.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- p.1 -->
+				<section>
+					<h3>Web A / V Workshop</h3>
+					<h3>網路音像</h3>
+				</section>
+				<section>
+					<h3><a href="https://www.evernote.com/l/ApFRv86l6LRGFZ1zT8f5Lc4DX8eTA5TGxkc">上課文件</a></h3>
+					<p>投影片是只是內容的大綱</p>
+					<p>詳細內容請看文件檔案！</p>
+				</section>
+				<section>
+					<h3>內容</h3>
+					<ol>
+						<li>網路與音像藝術</li>
+						<li>Beact</li>
+						<li>網頁音像實作教學</li>
+						<li>Takeaway</li>
+					</ol>
+				</section>
+
+
+				<!-- 網路與音像藝術 -->
+				<section>
+					<p>part.1</p>
+					<h2>網路與音像藝術</h2>
+					<ol>
+						<li>網路基礎簡介</li>
+						<li>網頁中的聲音、影像</li>
+						<li>應用：音像藝術</li>
+					</ol>
+				</section>
+
+				<section>
+					<section>
+						<h2>網路基礎簡介</h2>
+					</section>
+					<section>
+						<h2>核心要點</h2>
+						<ul>
+							<li>工作坊提供的是資源和連結</li>
+							<li>並不是速成學習，而是速成的結果刺激學習</li>
+							<li>英文不好也是可以學</li>
+							<li>剛開始一定大部分的程式碼都看不懂，不用急</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>網路是什麼</h2>
+						<p>打開瀏覽器並輸入網址，其實就像是打開一個特定的資料夾並拿出裡面的東西</p>
+					</section>
+
+					<section>
+						<h2>瀏覽器</h2>
+						<p>Chrome, IE, Firefox, Safari..</p>
+					</section>
+
+					<section>
+						<h2>網站是什麼</h2>
+						<ul>
+							<li>index.html</li>
+							<li>style.css</li>
+							<li><strong>script.js</strong></li>
+							<li>images, videos...</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>網頁中的聲音、影像</h2>
+					</section>
+					<section>
+						<p>JavaScript 快速的擴張</p>
+						<p>讓許多本來覺得非常神奇的事情都發生了</p>
+					</section>
+
+					<section>
+						<h2>五花八門 libraries</h2>
+						<ul>
+							<li><a href="https://threejs.org/examples/">three.js</a></li>
+							<li><a href="https://tonejs.github.io/examples/">Tone.js</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>各色論壇、社群 forum</h2>
+						<ul>
+							<li><a href="https://www.openprocessing.org/">Open Processing</a></li>
+							<li><a href="https://blog.codepen.io/2017/03/17/best-music-pens-codepen/">Codepen</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Google Experiments</h2>
+						<ul>
+							<li><a href="https://www.androidexperiments.com/">Android Experiments</a></li>
+							<li><a href="https://www.chromeexperiments.com/">Chrome Experiments</a></li>
+						</ul>
+					</section>
+
+				</section>
+
+
+				<section>
+					<section>
+						<h2>應用：音像藝術</h2>
+					</section>
+					<section>
+						<h2>examples</h2>
+						<ul>
+							<li><a href="https://www.google.com/logos/doodles/2017/fischinger/fischinger17.9.html?hl=en&doodle=undefined">Google Doodle</a></li>
+							<li><a href="http://whitevinyldesign.com/">White Vinyl</a></li>
+							<li><a href="http://superlooper.universlabs.co.uk/">Super Looper</a></li>
+							<li><a href="http://808cube.com/">808 Cube</a></li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<p>part.2</p>
+						<h2>Beact</h2>
+						<ol>
+							<li>創作概念</li>
+							<li>實務操作難題</li>
+							<li>作品發展與可能性</li>
+						</ol>
+					</section>
+					<section>
+						<h2>創作概念</h2>
+						<li><a href="https://medium.com/@vibertthio/beact-audio-visual-art-in-react-44e9c757e40f">Intro to Beact</a></li>
+					</section>
+					<section>
+						<h2>實務操作難題</h2>
+						<ul>
+							<li>開發環境建置</li>
+							<li>git 協作</li>
+							<li>library 整合 / 架構設計</li>
+						</ul>
+					</section>
+					<section>
+						<h2>作品發展與可能性</h2>
+						<ul>
+							<li>字元的意義</li>
+							<li>跟其他音樂人合作，將其作品包裝成更具互動性</li>
+							<li>與其他 project 做連結與合作</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<p>part.3</p>
+						<h2>網頁作品教學</h2>
+						<ol>
+							<li>p5.js & atom</li>
+							<li>操作時間</li>
+							<li>網路資源與自學之道</li>
+							<li><a href="https://www.evernote.com/l/ApFRv86l6LRGFZ1zT8f5Lc4DX8eTA5TGxkc">上課文件</a></li>
+						</ol>
+					</section>
+					<section>
+						<h2>
+							註冊<a href="https://github.com/">github</a>
+						</h2>
+					</section>
+					<section>
+						<h2>下載</h2>
+						<ol>
+							<li><a href="https://github.com/vibertthio/web-audio-visual">p5.js 模板</a></li>
+							<li><a href="https://atom.io/">Atom</a></li>
+						</ol>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>操作時間 Coding Time</h2>
+					</section>
+					<section>
+						<h2>draw a circle</h2>
+						<ul>
+							<li>setup, draw</li>
+							<li>函數 function 概念</li>
+							<li>玩參數</li>
+						</ul>
+					</section>
+					<section>
+						<h2>interact with circle</h2>
+						<ul>
+							<li>mouseX, mouseY 的使用</li>
+							<li>comment 概念</li>
+							<li>event 概念</li>
+							<li>background 作用</li>
+							<li>玩參數</li>
+						</ul>
+					</section>
+					<section>
+						<h2>adjust color and style</h2>
+						<ul>
+							<li>opacity</li>
+							<li>tint</li>
+						</ul>
+					</section>
+					<section>
+						<h2>auto generate circle</h2>
+						<ul>
+							<li>random</li>
+						</ul>
+					</section>
+					<section>
+						<h2>sound generation</h2>
+						<ul>
+							<li>打開 sound 資料夾</li>
+						</ul>
+					</section>
+					<section>
+						<h2>generate circles with sound</h2>
+						<ul>
+							<li>if, else 意義</li>
+							<li>variables</li>
+							<li>Math</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<p>part.4</p>
+						<h2>Takeaway</h2>
+					</section>
+					<section>
+						<h2>網路作為一種媒介</h2>
+						<p>網路</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
