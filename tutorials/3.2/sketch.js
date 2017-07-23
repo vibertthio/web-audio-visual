@@ -1,9 +1,10 @@
 function setup() {
   createCanvas(800, 500);
+  //           width height
 }
 
 function draw() {
-  // stroke(255);
+  // stroke(0);
   noStroke();
 
   fill(
@@ -14,8 +15,8 @@ function draw() {
   );
 
   ellipse(
-    random(width),
-    random(height),
+    random(800),
+    random(500),
     50,
     50,
   );

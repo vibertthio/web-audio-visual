@@ -13,7 +13,7 @@ function setupSound() {
   env.setADSR(attackTime, decayTime, susPercent, releaseTime);
   env.setRange(attackLevel, releaseLevel);
 
-  triOsc = new p5.Oscillator('triangle');
+  triOsc = new p5.Oscillator('sine');
   triOsc.amp(env);
   triOsc.start();
   triOsc.freq(220);
@@ -25,7 +25,7 @@ function playEnv(){
 
 function playEnv(freq){
   var f = map(freq, height, 0, 100, 1000);
-  if (f > 0) {    
+  if (f > 0) {
     triOsc.freq(f);
     env.play();
   }

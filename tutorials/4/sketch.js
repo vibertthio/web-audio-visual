@@ -23,6 +23,7 @@ function draw() {
   );
 }
 
+// Event
 function keyPressed() {
-  background(255);
+  background(0);
 }
